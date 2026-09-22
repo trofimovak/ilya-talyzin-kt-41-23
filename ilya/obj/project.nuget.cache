@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "obgGMa+BJoY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Илья Талызин\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\ilya.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Илья Талызин\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.12\\microsoft.aspnetcore.openapi.9.0.12.nupkg.sha512",
+    "C:\\Users\\Илья Талызин\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
