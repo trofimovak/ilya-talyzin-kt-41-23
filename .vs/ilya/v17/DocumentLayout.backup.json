@@ -3,60 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929092737_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ilya\\Migrations\\20260929092737_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929092604_migr1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ilya\\Migrations\\20260929092604_migr1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\database\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\database\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\database\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\database\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929091407_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ilya\\Migrations\\20260929091407_CreateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\ilya.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\ilya.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\interfaces\\studentsinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\interfaces\\studentsinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\filters\\studentfilters\\studentgroupfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,184 +54,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260929092737_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929092737_InitialCreate.cs",
-              "RelativeDocumentMoniker": "ilya\\Migrations\\20260929092737_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929092737_InitialCreate.cs",
-              "RelativeToolTip": "ilya\\Migrations\\20260929092737_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:27:38.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20260929092604_migr1.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929092604_migr1.cs",
-              "RelativeDocumentMoniker": "ilya\\Migrations\\20260929092604_migr1.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929092604_migr1.cs",
-              "RelativeToolTip": "ilya\\Migrations\\20260929092604_migr1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:26:04.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20260929091407_CreateDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929091407_CreateDatabase.cs",
-              "RelativeDocumentMoniker": "ilya\\Migrations\\20260929091407_CreateDatabase.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20260929091407_CreateDatabase.cs",
-              "RelativeToolTip": "ilya\\Migrations\\20260929091407_CreateDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:14:08.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ColumnType.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Helpers\\ColumnType.cs",
-              "RelativeDocumentMoniker": "ilya\\Database\\Helpers\\ColumnType.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Helpers\\ColumnType.cs",
-              "RelativeToolTip": "ilya\\Database\\Helpers\\ColumnType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:10:20.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\StudentConfiguration.cs",
-              "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\StudentConfiguration.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\StudentConfiguration.cs",
-              "RelativeToolTip": "ilya\\Database\\Configurations\\StudentConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowDYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:05:52.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "ilya\\Models\\Group.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Group.cs",
-              "RelativeToolTip": "ilya\\Models\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:05:52.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "ilya\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Student.cs",
-              "RelativeToolTip": "ilya\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:05:52.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GroupConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\GroupConfiguration.cs",
-              "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\GroupConfiguration.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\GroupConfiguration.cs",
-              "RelativeToolTip": "ilya\\Database\\Configurations\\GroupConfiguration.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvx0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:05:52.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\StudentDbContext.cs",
-              "RelativeDocumentMoniker": "ilya\\Database\\StudentDbContext.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\StudentDbContext.cs",
-              "RelativeToolTip": "ilya\\Database\\StudentDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:02:32.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ilya\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Properties\\launchSettings.json",
               "RelativeToolTip": "ilya\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-22T11:32:10.206Z",
+              "WhenOpened": "2026-09-29T11:09:11.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ilya.csproj",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\ilya.csproj",
-              "RelativeDocumentMoniker": "ilya\\ilya.csproj",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\ilya.csproj",
-              "RelativeToolTip": "ilya\\ilya.csproj",
-              "ViewState": "AgIAAAsAAAAAAAAAAABBwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-22T11:29:42.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "ilya\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "ilya\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "ilya\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "ilya\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T11:27:00.639Z",
+              "WhenOpened": "2026-09-29T11:04:41.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Program.cs",
               "RelativeDocumentMoniker": "ilya\\Program.cs",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Program.cs",
               "RelativeToolTip": "ilya\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-22T11:26:49.719Z",
+              "WhenOpened": "2026-09-29T11:03:41.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ilya\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.Development.json",
-              "RelativeToolTip": "ilya\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-22T11:24:51.246Z",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "ilya\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\ServiceExtensions.cs",
+              "RelativeToolTip": "ilya\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:03:24.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "ilya\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "RelativeToolTip": "ilya\\Interfaces\\StudentsInterfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:02:48.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentGroupFilter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "RelativeDocumentMoniker": "ilya\\Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "RelativeToolTip": "ilya\\Filters\\StudentFilters\\StudentGroupFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T11:01:54.736Z",
               "EditorCaption": ""
             }
           ]

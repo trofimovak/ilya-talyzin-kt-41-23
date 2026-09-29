@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ilya")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d85d86377e319faf427fb501af6e44201c7d9dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b972eece53b31acb1d48485cdf2251ed8d74b162")]
 [assembly: System.Reflection.AssemblyProductAttribute("ilya")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ilya")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
