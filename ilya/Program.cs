@@ -1,45 +1,36 @@
-using ilya.Database;
 using Microsoft.EntityFrameworkCore;
-using NLog;
-using NLog.Web;
+using ilya.Database;
+using ilya.ServiceExtensions;
 
-var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+var builder = WebApplication.CreateBuilder(args);
 
-try
-{
-    var builder = WebApplication.CreateBuilder(args);
+// 1. Регистрация сервисов в DI-контейнере
+builder.Services.AddControllers(); // Обязательно для работы контроллеров
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-    // Подключение NLog из методички
-    builder.Logging.ClearProviders();
-    builder.Host.UseNLog();
-
-    // Добавление сервисов контроллеров и Swagger
-    builder.Services.AddControllers();
-    builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
-
-    builder.Services.AddDbContext<StudentDbContext>(options =>
+// Подключение DbContext
+builder.Services.AddDbContext<StudentDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-    var app = builder.Build();
+// Регистрация ваших сервисов из ЛР 4
+builder.Services.AddServices();
 
-    // Настройка конвейера HTTP-запросов
-    if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
+var app = builder.Build();
 
-    app.UseAuthorization();
-    app.MapControllers();
-    app.Run();
-}
-catch (Exception ex)
+// 2. Настройка Middleware
+// Включаем Swagger ДЛЯ ВСЕХ СРЕД (чтобы точно работало при локальной отладке)
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    logger.Error(ex, "Stopped program because of exception");
-    throw;
-}
-finally
-{
-    LogManager.Shutdown();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+    c.RoutePrefix = "swagger"; // Доступ по адресу /swagger
+});
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+
+// Регистрация маршрутов контроллеров
+app.MapControllers();
+
+app.Run();
