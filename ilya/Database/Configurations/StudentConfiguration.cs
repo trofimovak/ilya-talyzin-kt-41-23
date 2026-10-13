@@ -1,3 +1,4 @@
+
 using ilya.Database.Helpers;
 using ilya.Models;
 using Microsoft.EntityFrameworkCore;
@@ -34,21 +35,30 @@ namespace ilya.Database.Configurations
                    .HasComment("Фамилия студента");
 
             builder.Property(p => p.MiddleName)
+                   .IsRequired()
                    .HasColumnName("c_student_middlename")
                    .HasColumnType($"{ColumnType.String}(100)")
                    .HasComment("Отчество студента");
 
             builder.Property(p => p.GroupId)
+                   .IsRequired()
                    .HasColumnName("f_group_id")
                    .HasComment("Идентификатор группы");
 
+            builder.Property(p => p.IsDeleted)
+                   .IsRequired()
+                   .HasColumnName("is_deleted")
+                   .HasDefaultValue(false)
+                   .HasComment("Статус удаления студента");
+
             builder.HasOne(p => p.Group)
-                   .WithMany()
+                   .WithMany(p => p.Students)
                    .HasForeignKey(p => p.GroupId)
                    .HasConstraintName("fk_f_group_id")
                    .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasIndex(p => p.GroupId, $"idx_{TableName}_fk_f_group_id");
+            builder.HasIndex(p => p.GroupId,
+                $"idx_{TableName}_fk_f_group_id");
 
             builder.Navigation(p => p.Group).AutoInclude();
         }

@@ -21,6 +21,72 @@ namespace ilya.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("ilya.Models.Discipline", b =>
+                {
+                    b.Property<int>("DisciplineId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("discipline_id")
+                        .HasComment("Идентификатор дисциплины");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DisciplineId"));
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_deleted")
+                        .HasComment("Статус удаления дисциплины");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("c_discipline_name")
+                        .HasComment("Название дисциплины");
+
+                    b.HasKey("DisciplineId")
+                        .HasName("pk_cd_discipline_discipline_id");
+
+                    b.ToTable("cd_discipline", (string)null);
+                });
+
+            modelBuilder.Entity("ilya.Models.Grade", b =>
+                {
+                    b.Property<int>("GradeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("grade_id")
+                        .HasComment("Идентификатор оценки");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GradeId"));
+
+                    b.Property<int>("DisciplineId")
+                        .HasColumnType("int")
+                        .HasColumnName("f_discipline_id")
+                        .HasComment("Идентификатор дисциплины");
+
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int")
+                        .HasColumnName("f_student_id")
+                        .HasComment("Идентификатор студента");
+
+                    b.Property<int>("Value")
+                        .HasColumnType("int")
+                        .HasColumnName("c_value")
+                        .HasComment("Значение оценки");
+
+                    b.HasKey("GradeId")
+                        .HasName("pk_cd_grade_grade_id");
+
+                    b.HasIndex("DisciplineId")
+                        .HasDatabaseName("idx_cd_grade_fk_discipline_id");
+
+                    b.HasIndex("StudentId")
+                        .HasDatabaseName("idx_cd_grade_fk_student_id");
+
+                    b.ToTable("cd_grade", (string)null);
+                });
+
             modelBuilder.Entity("ilya.Models.Group", b =>
                 {
                     b.Property<int>("GroupId")
@@ -31,16 +97,67 @@ namespace ilya.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GroupId"));
 
+                    b.Property<int>("Course")
+                        .HasColumnType("int")
+                        .HasColumnName("c_course")
+                        .HasComment("Курс обучения");
+
                     b.Property<string>("GroupName")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("c_group_name")
                         .HasComment("Название группы");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_deleted")
+                        .HasComment("Статус удаления группы");
+
+                    b.Property<int>("SpecialityId")
+                        .HasColumnType("int")
+                        .HasColumnName("f_speciality_id")
+                        .HasComment("Идентификатор специальности");
+
                     b.HasKey("GroupId")
                         .HasName("pk_cd_group_group_id");
 
+                    b.HasIndex(new[] { "SpecialityId" }, "idx_cd_group_fk_speciality_id");
+
                     b.ToTable("cd_group", (string)null);
+                });
+
+            modelBuilder.Entity("ilya.Models.Speciality", b =>
+                {
+                    b.Property<int>("SpecialityId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("speciality_id")
+                        .HasComment("Идентификатор специальности");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SpecialityId"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("c_code")
+                        .HasComment("Код специальности");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("c_title")
+                        .HasComment("Название специальности");
+
+                    b.HasKey("SpecialityId")
+                        .HasName("pk_cd_speciality_speciality_id");
+
+                    b.HasIndex("Code")
+                        .IsUnique()
+                        .HasDatabaseName("uq_cd_speciality_code");
+
+                    b.ToTable("cd_speciality", (string)null);
                 });
 
             modelBuilder.Entity("ilya.Models.Student", b =>
@@ -64,6 +181,13 @@ namespace ilya.Migrations
                         .HasColumnName("f_group_id")
                         .HasComment("Идентификатор группы");
 
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false)
+                        .HasColumnName("is_deleted")
+                        .HasComment("Статус удаления студента");
+
                     b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(100)")
@@ -84,16 +208,69 @@ namespace ilya.Migrations
                     b.ToTable("cd_student", (string)null);
                 });
 
+            modelBuilder.Entity("ilya.Models.Grade", b =>
+                {
+                    b.HasOne("ilya.Models.Discipline", "Discipline")
+                        .WithMany("Grades")
+                        .HasForeignKey("DisciplineId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_cd_grade_discipline");
+
+                    b.HasOne("ilya.Models.Student", "Student")
+                        .WithMany("Grades")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_cd_grade_student");
+
+                    b.Navigation("Discipline");
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("ilya.Models.Group", b =>
+                {
+                    b.HasOne("ilya.Models.Speciality", "Speciality")
+                        .WithMany("Groups")
+                        .HasForeignKey("SpecialityId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired()
+                        .HasConstraintName("fk_cd_group_speciality");
+
+                    b.Navigation("Speciality");
+                });
+
             modelBuilder.Entity("ilya.Models.Student", b =>
                 {
                     b.HasOne("ilya.Models.Group", "Group")
-                        .WithMany()
+                        .WithMany("Students")
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("fk_f_group_id");
 
                     b.Navigation("Group");
+                });
+
+            modelBuilder.Entity("ilya.Models.Discipline", b =>
+                {
+                    b.Navigation("Grades");
+                });
+
+            modelBuilder.Entity("ilya.Models.Group", b =>
+                {
+                    b.Navigation("Students");
+                });
+
+            modelBuilder.Entity("ilya.Models.Speciality", b =>
+                {
+                    b.Navigation("Groups");
+                });
+
+            modelBuilder.Entity("ilya.Models.Student", b =>
+                {
+                    b.Navigation("Grades");
                 });
 #pragma warning restore 612, 618
         }
