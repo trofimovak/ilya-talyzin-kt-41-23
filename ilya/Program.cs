@@ -1,36 +1,57 @@
+
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using NLog;
+using NLog.Web;
 using ilya.Database;
 using ilya.ServiceExtensions;
 
-var builder = WebApplication.CreateBuilder(args);
+var logger = LogManager.Setup()
+    .LoadConfigurationFromAppSettings()
+    .GetCurrentClassLogger();
 
-// 1. Регистрация сервисов в DI-контейнере
-builder.Services.AddControllers(); // Обязательно для работы контроллеров
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-// Подключение DbContext
-builder.Services.AddDbContext<StudentDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Регистрация ваших сервисов из ЛР 4
-builder.Services.AddServices();
-
-var app = builder.Build();
-
-// 2. Настройка Middleware
-// Включаем Swagger ДЛЯ ВСЕХ СРЕД (чтобы точно работало при локальной отладке)
-app.UseSwagger();
-app.UseSwaggerUI(c =>
+try
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
-    c.RoutePrefix = "swagger"; // Доступ по адресу /swagger
-});
+    var builder = WebApplication.CreateBuilder(args);
 
-app.UseHttpsRedirection();
-app.UseAuthorization();
+    // Подключение NLog
+    builder.Logging.ClearProviders();
+    builder.Host.UseNLog();
 
-// Регистрация маршрутов контроллеров
-app.MapControllers();
+    // Регистрация контроллеров и Swagger
+    builder.Services.AddControllers();
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
 
-app.Run();
+    // Подключение базы данных
+    builder.Services.AddDbContext<StudentDbContext>(options =>
+        options.UseSqlServer(
+            builder.Configuration.GetConnectionString("DefaultConnection")));
+
+    // Регистрация сервисов лабораторной № 4
+    builder.Services.AddServices();
+
+    var app = builder.Build();
+
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        c.RoutePrefix = "swagger";
+    });
+
+    app.UseHttpsRedirection();
+    app.UseAuthorization();
+    app.MapControllers();
+
+    app.Run();
+}
+catch (Exception ex)
+{
+    logger.Error(ex, "Приложение остановлено из-за ошибки");
+    throw;
+}
+finally
+{
+    LogManager.Shutdown();
+}

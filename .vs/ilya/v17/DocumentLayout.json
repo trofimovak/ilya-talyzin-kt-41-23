@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20261013092351_123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ilya\\Migrations\\20261013092351_123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\migrations\\20261013092351_123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\migrations\\20261013092351_123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20261013092010_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +71,6 @@
       "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|c:\\users\\\u0438\u043B\u044C\u044F \u0442\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA039D1A-846E-4429-B189-22A683504A25}|ilya\\ilya.csproj|solutionrelative:ilya\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -82,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,6 +102,18 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -101,21 +121,51 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ilya\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ilya\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T09:45:49.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ilya\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\WeatherForecast.cs",
+              "RelativeToolTip": "ilya\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T09:43:27.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20261013092351_123.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20261013092351_123.cs",
               "RelativeDocumentMoniker": "ilya\\Migrations\\20261013092351_123.cs",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20261013092351_123.cs",
               "RelativeToolTip": "ilya\\Migrations\\20261013092351_123.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAswJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-13T09:23:51.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "20261013092010_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Migrations\\20261013092010_InitialCreate.cs",
               "RelativeDocumentMoniker": "ilya\\Migrations\\20261013092010_InitialCreate.cs",
@@ -128,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "GradeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\GradeConfiguration.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\GradeConfiguration.cs",
@@ -141,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "DisciplineConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\DisciplineConfiguration.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\DisciplineConfiguration.cs",
@@ -154,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "SpecialityConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\SpecialityConfiguration.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\SpecialityConfiguration.cs",
@@ -167,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Grade.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Grade.cs",
               "RelativeDocumentMoniker": "ilya\\Models\\Grade.cs",
@@ -180,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Discipline.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Discipline.cs",
               "RelativeDocumentMoniker": "ilya\\Models\\Discipline.cs",
@@ -193,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Speciality.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Speciality.cs",
               "RelativeDocumentMoniker": "ilya\\Models\\Speciality.cs",
@@ -206,20 +256,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ilya\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\appsettings.Development.json",
               "RelativeToolTip": "ilya\\appsettings.Development.json",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-10-13T09:05:10.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ColumnType.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Helpers\\ColumnType.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\Helpers\\ColumnType.cs",
@@ -232,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "StudentDbContext.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\StudentDbContext.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\StudentDbContext.cs",
@@ -245,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "ilya\\Controllers\\StudentsController.cs",
@@ -257,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Student.cs",
               "RelativeDocumentMoniker": "ilya\\Models\\Student.cs",
@@ -270,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Models\\Group.cs",
               "RelativeDocumentMoniker": "ilya\\Models\\Group.cs",
@@ -283,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "StudentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\StudentConfiguration.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\StudentConfiguration.cs",
@@ -296,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "GroupConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Database\\Configurations\\GroupConfiguration.cs",
               "RelativeDocumentMoniker": "ilya\\Database\\Configurations\\GroupConfiguration.cs",
@@ -309,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ilya\\Properties\\launchSettings.json",
@@ -321,13 +371,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Program.cs",
               "RelativeDocumentMoniker": "ilya\\Program.cs",
               "ToolTip": "C:\\Users\\\u0418\u043B\u044C\u044F \u0422\u0430\u043B\u044B\u0437\u0438\u043D\\source\\repos\\ilya-talyzin-kt-41-23\\ilya\\Program.cs",
               "RelativeToolTip": "ilya\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwCwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T11:03:41.539Z",
               "EditorCaption": ""
